@@ -13,7 +13,7 @@ const Body = () => {
   const fetchedArray = useRestaurantInfo();
   console.log(fetchedArray);
   useEffect(() => {
-    if (fetchedArray.length > 0) {
+    if (fetchedArray?.length > 0) {
       setListOfRestaurant(fetchedArray);
       setOriginalList(fetchedArray);
     }

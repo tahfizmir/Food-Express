@@ -6,7 +6,7 @@ const Error=()=>{
     return (
         <>
         <div>
-            <h2>Error handling page</h2>
+            <h2>If you are seeing this page, there might be some change in the swiggy api structure that needs reconfiguring. </h2>
            <h3> {err.status} : {err.statusText} </h3>
         </div>
         </>
