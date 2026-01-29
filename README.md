@@ -15,3 +15,6 @@ If you are developing a production application, we recommend using TypeScript an
 ## redux
 install
 build store
+
+## setting up testing in our app
+using the react testing library, jest jest-babel

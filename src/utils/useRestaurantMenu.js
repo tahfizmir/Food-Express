@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { SWIGGY_MENU } from "./constants";
 import { resMenuMock } from "./mockData";
